@@ -57,9 +57,23 @@ $on-laptop:        800px;
 body {
   background: white;
   font-family: $base-font-family;
-  font-weight: 100;
 }
+
 
 .site-header {
   font-family: Didot;
+}
+
+a {
+  // color: $text-color;
+  color: #000044;
+  color: rgba(0, 0, 210, 1);
+  &:visited {
+    // color: $grey-color;
+    color: rgba(0, 0, 200, 1);
+  }
+  &:hover {
+    // color: $grey-color;
+    color: rgba(0, 0, 300, 1);
+  }
 }
