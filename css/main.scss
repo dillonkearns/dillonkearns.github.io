@@ -13,18 +13,23 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
 $background-color: white;
 $brand-color:      #2a7ae2;
+$text-color:       #111;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$link-plain:       rgba(0, 110, 0, 1);
+$link-visited:     rgba(0, 100, 0, 1);
+$link-hover:       rgba(0, 200, 0, 1);
+
+
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$footer-height: 180px;
+$footer-height:    180px;
 
 
 
@@ -57,17 +62,14 @@ $footer-height: 180px;
 }
 
 body {
-  background: white;
+  background:  $background-color;
   font-family: $base-font-family;
-  // background: rgba(236, 223, 189, 1);
-  // background: #faf6eb;
-  // background: lighten($grey-color, 45%);
 }
 
 
 .site-header {
   font-family: Didot;
-  background: white;
+  background: $background-color;
 }
 
 h1 {
@@ -79,34 +81,19 @@ h2 {
 }
 
 a {
-  // color: $text-color;
-  color: #000044;
-  color: rgba(0, 0, 210, 1);
-  color: rgba(0, 110, 0, 1);
+  color: $link-plain;
   &:visited {
-    // color: $grey-color;
-    color: rgba(0, 0, 200, 1);
-    color: rgba(0, 100, 0, 1);
+    color: $link-visited;
   }
   &:hover {
-    // color: $grey-color;
-    color: rgba(0, 0, 300, 1);
-    color: rgba(0, 200, 0, 1);
+    color: $link-hover;
   }
 }
 
 #about {
   display: table-cell;
-   vertical-align: bottom;
+  vertical-align: bottom;
 }
-//
-
-//   position: fixed;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-// }
-
 
 html,
 body {
