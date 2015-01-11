@@ -3,9 +3,12 @@
 ---
 @charset "utf-8";
 
+// import fonts
+@import url(http://fonts.googleapis.com/css?family=Crete+Round:400,400italic);
 
 
 // Our variables
+$title-font-family: 'Crete Round', Didot, serif;
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -77,18 +80,24 @@ body {
   padding-right: 15px;
 }
 
+nav.site-nav div.trigger a {
+  color: #6b6b6b;
+  font-size: 19px;
+  font-family: $title-font-family;
+}
+
 
 .site-header {
-  font-family: Didot;
+  font-family: $title-font-family;
   background: $background-color;
 }
 
 h1 {
-  font-family: Didot;
+  font-family: $title-font-family;
 }
 
 h2 {
-  font-family: Didot;
+  font-family: $title-font-family;
 }
 
 a {
