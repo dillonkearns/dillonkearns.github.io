@@ -66,6 +66,12 @@ body {
   font-family: $base-font-family;
 }
 
+#logo {
+  max-height: 100px;
+  margin-top: -7px;
+  padding: 15px;
+}
+
 
 .site-header {
   font-family: Didot;
