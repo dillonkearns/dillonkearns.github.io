@@ -24,9 +24,12 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$link-plain:       rgba(0, 110, 0, 1);
-$link-visited:     rgba(0, 100, 0, 1);
-$link-hover:       rgba(0, 200, 0, 1);
+$marker-red:       #D31332;
+$marker-green:     #389e3a;
+$marker-blue:      #05539F;
+
+$link-plain:       #D31332;
+$link-hover:       lighten($link-plain, 25%);
 
 
 $on-palm:          600px;
@@ -103,7 +106,7 @@ h2 {
 a {
   color: $link-plain;
   &:visited {
-    color: $link-visited;
+    color: $link-plain;
   }
   &:hover {
     color: $link-hover;
@@ -135,6 +138,13 @@ body {
 #footer {
   height: $footer-height;
   background-color: #f5f5f5;
+}
+
+#footer a {
+  color: $marker-green;
+  &:hover {
+    color: lighten($marker-green, 15%);
+  }
 }
 
 .site-header {
