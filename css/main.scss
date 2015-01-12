@@ -76,12 +76,28 @@ body {
   max-height: 100px;
   margin-top: -7px;
   padding: 15px;
+  padding-left: 20px;
 }
 
 .site-nav {
   line-height: 100px;
-  padding-right: 15px;
 }
+
+.trigger {
+  padding-right: 50px;
+}
+
+
+@include media-query($on-palm) {
+    #logo {
+        padding-left: 15px;
+    }
+
+    .trigger {
+      padding-right: 0px;
+    }
+}
+
 
 nav.site-nav div.trigger a {
   color: #6b6b6b;
