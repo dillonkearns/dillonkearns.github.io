@@ -197,6 +197,24 @@ article {
 }
 // end blog articles view
 
+#ctas {
+  .btn {
+    text-transform: capitalize;
+    color: white;
+    background-color: $marker-blue;
+    border: none;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    &:hover {
+      background-color: lighten($marker-blue, 5%);
+    }
+  }
+
+  margin-top: 40px;
+}
+
 html,
 body {
   height: 100%;
