@@ -35,7 +35,7 @@ $link-hover:       lighten($link-plain, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$footer-height:    180px;
+$footer-height:    100px;
 
 
 
@@ -260,4 +260,13 @@ body {
 
 .post-title {
   padding-top: 18px;
+}
+
+footer {
+  .social {
+    img {
+      width: 55px;
+      height: auto;
+    }
+  }
 }
