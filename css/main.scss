@@ -41,11 +41,11 @@ $footer-height:    100px;
 
 // Using media queries with like this:
 // @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+    //     .wrapper {
+        //         padding-right: $spacing-unit / 2;
+        //         padding-left: $spacing-unit / 2;
+        //     }
+    // }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -56,29 +56,29 @@ $footer-height:    100px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+"base",
+"layout",
+"syntax-highlighting"
 ;
 
 body {
-  background:  $background-color;
-  font-family: $base-font-family;
+    background:  $background-color;
+    font-family: $base-font-family;
 }
 
 #logo {
-  max-height: 100px;
-  margin-top: -7px;
-  padding: 15px;
-  padding-left: 20px;
+    max-height: 100px;
+    margin-top: -7px;
+    padding: 15px;
+    padding-left: 20px;
 }
 
 .site-nav {
-  line-height: 100px;
+    line-height: 100px;
 }
 
 .trigger {
-  padding-right: 50px;
+    padding-right: 50px;
 }
 
 
@@ -88,187 +88,187 @@ body {
     }
 
     .trigger {
-      padding-right: 0px;
+        padding-right: 0px;
     }
 }
 
 
 nav.site-nav div.trigger a {
-  color: #6b6b6b;
-  font-size: 19px;
-  font-family: $title-font-family;
+    color: #6b6b6b;
+    font-size: 19px;
+    font-family: $title-font-family;
 }
 
 
 .site-header {
-  font-family: $title-font-family;
-  background: $background-color;
+    font-family: $title-font-family;
+    background: $background-color;
 }
 
 h1 {
-  font-family: $title-font-family;
+    font-family: $title-font-family;
 }
 
 h2 {
-  font-family: $title-font-family;
+    font-family: $title-font-family;
 }
 
 a {
-  color: $link-plain;
-  &:visited {
     color: $link-plain;
-  }
-  &:hover {
-    color: $link-hover;
-  }
+    &:visited {
+        color: $link-plain;
+    }
+    &:hover {
+        color: $link-hover;
+    }
 }
 
 #about {
-  display: table-cell;
-  vertical-align: bottom;
+    display: table-cell;
+    vertical-align: bottom;
 }
 
 // blog articles view
 article {
-  text-align: center;
-  header {
-    h1 a {
-      color: $marker-green;
-      &:visited {
-        color: $marker-green;
-      }
-    }
-    p {
-      font-size: 14px;
-
-    }
-  }
-
-  footer {
-    text-align: left;
-    ul.tags {
-      display: inline;
-      margin-left: 5px;
-
-      li:after {
-        content: ", ";
-      }
-
-      li:last-child:after {
-        content: "";
-      }
-
-      li {
-        display: inline-block;
-      }
-
-
-      a {
-        color: #67B3D8;
-        &:visited {
-          color: #67B3D8;
+    text-align: center;
+    header {
+        h1 a {
+            color: $marker-green;
+            &:visited {
+                color: $marker-green;
+            }
         }
-      }
+        p {
+            font-size: 14px;
+
+        }
     }
 
+    footer {
+        text-align: left;
+        ul.tags {
+            display: inline;
+            margin-left: 5px;
 
-    .btn {
-      float: right;
-      color: #808080;
-      background-color: #E8E8E8;
-      border: none;
-      -webkit-transition-delay: 0s;
-      -webkit-transition-duration: 0.5s;
-      -webkit-transition-property: all;
-      -webkit-transition-timing-function: ease;
-      &:hover {
-        background-color: darken(#E8E8E8, 5%);
-      }
+            li:after {
+                content: ", ";
+            }
+
+            li:last-child:after {
+                content: "";
+            }
+
+            li {
+                display: inline-block;
+            }
+
+
+            a {
+                color: #67B3D8;
+                &:visited {
+                    color: #67B3D8;
+                }
+            }
+        }
+
+
+        .btn {
+            float: right;
+            color: #808080;
+            background-color: #E8E8E8;
+            border: none;
+            -webkit-transition-delay: 0s;
+            -webkit-transition-duration: 0.5s;
+            -webkit-transition-property: all;
+            -webkit-transition-timing-function: ease;
+            &:hover {
+                background-color: darken(#E8E8E8, 5%);
+            }
+        }
+
+        margin-bottom: 60px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #ddd;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(221, 221, 221);
     }
-
-    margin-bottom: 60px;
-    padding-bottom: 60px;
-    border-bottom: 1px solid #ddd;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(221, 221, 221);
-  }
 
 }
 // end blog articles view
 
 #ctas {
-  .btn {
-    text-transform: capitalize;
-    color: white;
-    background-color: $marker-blue;
-    border: none;
-    -webkit-transition-delay: 0s;
-    -webkit-transition-duration: 0.25s;
-    -webkit-transition-property: all;
-    -webkit-transition-timing-function: ease;
-    &:hover {
-      background-color: lighten($marker-blue, 5%);
+    .btn {
+        text-transform: capitalize;
+        color: white;
+        background-color: $marker-blue;
+        border: none;
+        -webkit-transition-delay: 0s;
+        -webkit-transition-duration: 0.25s;
+        -webkit-transition-property: all;
+        -webkit-transition-timing-function: ease;
+        &:hover {
+            background-color: lighten($marker-blue, 5%);
+        }
     }
-  }
 
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 
 // sticky footer
 html,
 body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
 }
 
 /* Wrapper for page content to push down footer */
 #wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto (-$footer-height);
-  /* Pad bottom by footer height */
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto (-$footer-height);
+    /* Pad bottom by footer height */
 }
 
 /* Set the fixed height of the footer here */
 #push, #footer {
-  height: $footer-height;
+    height: $footer-height;
 }
 
 // end sticky footer
 
 #footer {
-  background-color: #f5f5f5;
-  a {
-    color: $marker-green;
-    &:hover {
-      color: lighten($marker-green, 15%);
+    background-color: #f5f5f5;
+    a {
+        color: $marker-green;
+        &:hover {
+            color: lighten($marker-green, 15%);
+        }
     }
-  }
 }
 
 .site-header {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 #about {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .post-title {
-  padding-top: 18px;
+    padding-top: 18px;
 }
 
 footer {
-  .social {
-    img {
-      width: 55px;
-      height: auto;
+    .social {
+        img {
+            width: 55px;
+            height: auto;
+        }
     }
-  }
 }
 
 #experience ul {
