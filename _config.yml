@@ -8,3 +8,4 @@ github_username:  dillonkearns
 
 # Build settings
 markdown: kramdown
+permalink: /articles/:title
