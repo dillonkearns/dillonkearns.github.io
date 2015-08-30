@@ -9,3 +9,6 @@ github_username:  dillonkearns
 # Build settings
 markdown: kramdown
 permalink: /articles/:title
+
+gems:
+  - jekyll-redirect-from

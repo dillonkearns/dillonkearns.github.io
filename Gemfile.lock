@@ -155,3 +155,4 @@ DEPENDENCIES
   guard-jekyll
   guard-jekyll-plus
   guard-livereload
+  jekyll-redirect-from
