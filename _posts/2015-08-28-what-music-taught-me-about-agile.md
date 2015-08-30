@@ -74,7 +74,7 @@ I try to remind myself often to have this attitude about life. What glaring oppo
 ## Takeaways
 <ul class="takeaways">
   <li>Does your organization's culture support a sustainable pace? What about your organizational structures (incentive systems, frequent deadline crunches)?</li>
-  <li>Is management's role regarding motivation to ensure individuals are supported in autonomy, mastery, & purpose? Or is it to drive motivation through external incentives? Dan Pink describes how extrinsic motivators reduce performance where even rudimentary creative thinking is required in <a href="https://www.youtube.com/watch?v=u6XAPnuFjJc">this excellent 10-minute video</a> (learn more about motivation on <a href="/resources#drive">my resources page</a>).</li>
+  <li>Is management's role regarding motivation to ensure individuals are supported in autonomy, mastery, and purpose? Or is it to drive motivation through external incentives? Dan Pink describes how extrinsic motivators reduce performance where even rudimentary creative thinking is required in <a href="https://www.youtube.com/watch?v=u6XAPnuFjJc">this excellent 10-minute video</a> (learn more about motivation on <a href="/resources#drive">my resources page</a>).</li>
   <li>Is continuous improvement a core value in your organization, or is it an afterthought? How could you make it more central?</li>
   <li>Are there ways you could broaden your perspective to notice how you're approaching a task? If you notice something you could do better, do you take action? What about your team, or department, or company?</li>
 </ul>
