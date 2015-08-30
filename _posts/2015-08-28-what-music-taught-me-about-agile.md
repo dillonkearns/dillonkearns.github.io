@@ -63,16 +63,6 @@ To the students in my teacher's studio, reflecting and receiving mentoring was j
 
 I'd like to see this mindset in organizations. When you notice something that could be better, don't sit around and allow it to happen again and again because "you have work to do." Make it better! Continuous improvement isn't afterthought; in order to work it has to be a core belief.
 
-
-
-He would point out obvious things you didn't notice, and constantly pushed the boundaries of what you observed. You've got it memorized? Can you start in the middle of this passage without looking at the music? If not, let's look at how you're approaching the memorization, and improve your method… not just work harder.
-
-There's so much value to an outside observer. Daniel Kahneman talks about the idea of the "outside view" in Thinking, Fast and Slow. "We think it will take 2 years to finish this book." "How long would it take anyone else?" "At least 6 years" "Are we above average?" "No"…
-
-I try to remind myself often to have this attitude about life. What glaring opportunities for improvement are staring me in the face. Having weekly sessions with a master was an incredible way to repeatedly be faced with the humbling fact that, as Kahneman puts it, "We are blind to the obvious, and blind to our blindness."
-
-
-
 ## Takeaways
 <ul class="takeaways">
   <li>Does your organization's culture support a sustainable pace? What about your organizational structures (incentive systems, frequent deadline crunches)?</li>
