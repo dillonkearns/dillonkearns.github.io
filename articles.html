@@ -20,7 +20,7 @@ permalink: /articles/
         </p>
     </header>
 
-    <p>{{ post.excerpt }}</p>
+    <p>{{ post.content  | truncatewords: 150 }}</p>
 
     <footer>
       <span class="glyphicon glyphicon-tag"></span>
