@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "What Studying Music Taught Me About Agile"
-date:   2015-08-28 07:14:01
+date:   2015-08-30 10:59:01
 categories: jekyll update
 redirect_from:
   - /music/
