@@ -130,7 +130,7 @@ a {
 
 // articles view
 article {
-    text-align: center;
+    text-align: left;
     header {
         h1 a {
             color: $marker-green;
@@ -275,3 +275,195 @@ footer {
     padding-left: 40px;
 }
 
+#resources {
+    article {
+        padding-bottom: 40px;
+
+    }
+
+    .book-cover {
+        width: 140px;
+        padding-right: 15px;
+        // float: right;
+    }
+
+    section {
+        h2 {
+            padding-bottom: 5px;
+        }
+    }
+
+    dl {
+        border: 3px double #ccc;
+        padding: 0.5em;
+    }
+    dt {
+        float: left;
+        clear: left;
+        width: 100px;
+        text-align: right;
+        font-weight: bold;
+        color: green;
+    }
+    dt:after {
+        content: ":";
+    }
+    dd {
+        margin: 0 0 0 110px;
+        padding: 0 0 0.5em 0;
+    }
+
+    blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+
+    blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+    }
+}
+
+.post {
+    font-size: 19px;
+    h1.post-title {
+        font-size: 53px;
+        text-align: center;
+    }
+}
+
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  font-style: normal;
+
+  /*Borders - (Optional)*/
+    border-left: 15px solid $marker-green;
+  border-right: 2px solid $marker-green;
+
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+  display: inline-block;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+    background: red;
+}
+
+aside {
+   margin: 0 30px 15px 30px;
+   padding: 0 0 0 10px;
+   font-size: 1.1em;
+   font-family: "Times New Roman", Times, serif;
+    /*    border-left: 2px solid #ddd; */
+   color: #888;
+}
+
+aside.right {
+   width: 200px;
+   margin: 5px 0 5px 15px;
+   padding: 5px 0;
+    /*    border: 3px double #aaa; */
+    /*    border-width: 3px 0; */
+   font-size: 1.4em;
+   text-align: center;
+   float: right;
+}
+
+aside.right::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+#resources {
+    article {
+
+    }
+}
+
+ul.takeaways {
+    padding-left: 20px;
+
+    text-indent: 2px;
+    list-style: none;
+    list-style-position: outside;
+    li {
+        padding-bottom: 20px;
+    }
+    li:before {
+        color: green;
+        content: '✔';
+        margin-left: -1em;
+        margin-right: 1em;
+    }
+}
+
+figure.image {
+    max-width: 50%;
+    float: right;
+
+    figcaption {
+        color: #666;
+        padding-top: 10px;
+        text-align: center;
+    }
+}
