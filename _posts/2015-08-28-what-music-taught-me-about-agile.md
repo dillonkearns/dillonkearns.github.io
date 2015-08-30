@@ -42,8 +42,6 @@ My practice routine now is sustainable even as a hobby. I start with a short min
 
 ## Deliberate Practice
 
-{% include image.html url="/images/practicing.jpg" alt="Me practicing" caption="Me working on a Mozart sonata in 2007" style="max-width: 210px;" %}
-
 Studying with my teacher at UCSB taught me what a great practice session was like. The amount of time spent playing notes wasn't what caused me to improve. More important was stepping back, honing in on what really needed work (the highest value improvements), and then working deliberately on that improvement.
 
 
