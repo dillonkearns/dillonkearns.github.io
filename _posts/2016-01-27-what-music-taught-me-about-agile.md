@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "What Studying Music Taught Me About Agile"
-date:   2015-08-30 10:59:01
+date:   2016-01-27 17:44:00
 categories: jekyll update
 redirect_from:
   - /music/
@@ -19,7 +19,7 @@ It may help to explain how I came to study music in the first place. Most piano 
 
 ## The First Lesson
 
-At my first lesson, before even touching the piano, my teacher asked me to get into push-up formation on the floor. He wanted me to observe how much force the weight of my upper body carried at rest. Paradoxically, when your muscles tense less of this power is available to apply into the keyboard. Applying this weight is central to his method of producing a good sound from the instrument. Tension also reduces flexibility. Imagine throwing a ball starting with clenched muscles… you would have very little control and your throw would lack finesse and power.
+At my first lesson, before even touching the piano, my teacher asked me to get into push-up formation on the floor. He wanted me to observe how much force the weight of my upper body carried at rest. Paradoxically, when your muscles tense less of this power is available to apply into the keyboard. Applying this weight is central to his method of producing a good sound from the instrument. Tension also reduces flexibility. Imagine throwing a ball starting with clenched muscles. You would have very little control and your throw would lack finesse and power.
 
 My teacher saw everything as a potential exercise. There wasn't a clear separation between working on a piece of music and doing a formal exercise like a scale. Either way you systematically zero in on what needs improvement and refine it iteratively. That didn't mean play it without feeling. Quite the opposite, it meant playing with intent, focus, and discipline, and listening deeply to make sure every sound you produced was beautiful.
 
@@ -32,9 +32,7 @@ Looking back, it's interesting that in order to see the value of a sustainable w
 
 > If an organization doesn't deeply understand techniques for technical and process excellence, it may not value a sustainable work pace.
 
-{% include image.html url="/images/wilber-quadrants.png" alt="AQAL Quadrants" caption="Executives' mindset and leadership have strong influence on their company's culture and structure" %}
-
-Conversely, if a company has a culture and structure that encourage long work hours, it may be a sign that Agile and technical excellence aren't well understood, and training is needed. Note that the mindset and behaviors (upper quadrants) of executives have a big influence over the organization's culture and structure (lower quardants). An executive understanding these practices can start a shift. An executive lacking understanding can make it impossible to shift.
+Conversely, if a company has a culture and structure that encourage long work hours, it may be a sign that Agile and technical excellence aren't well understood, and training is needed. Note that the mindset and behaviors of executives have a big influence over the organization's culture and structure. An executive understanding these practices can start a shift. An executive lacking understanding can make it impossible to shift.
 
 Mediocrity can be dragged out limitlessly. Excellence forces a sustainable pace. Excellence pushed past its limit regresses to mediocrity.
 
@@ -42,13 +40,13 @@ My practice routine now is sustainable even as a hobby. I start with a short min
 
 ## Deliberate Practice
 
-Studying with my teacher at UCSB taught me what a great practice session was like. The amount of time spent playing notes wasn't what caused me to improve. More important was stepping back, honing in on what really needed work (the highest value improvements), and then working deliberately on that improvement.
+Studying with my teacher at UCSB taught me what a great practice session was like. The amount of time spent playing notes wasn't what caused me to improve. More important was stepping back, honing in on what really needed work (the highest value improvements), and then working deliberately starting with the most important thing.
 
 
 [A study conducted at University of Texas at Austin](http://www.creativitypost.com/psychology/8_things_top_practicers_do_differently) supports this (note the sample size was small, but it provides an interesting data point). It looked at practice habits of music majors. After working on a short excerpt from a piano concerto, they were rated on the musicality and accuracy of their performance. They found that more practice time didn't correlate with success. The best indicator of a good performance was the ratio of correct to incorrect trials.
 
 
-Top practiers weren't less likely to make a mistake the first time playing something through. The difference was that they immidately adjusted what they were doing to prevent the mistake from happening again. I believe this applies at the personal and the team level. Perhaps the most effective teams are the ones who notice as soon as something doesn't work and experiment to try to improve.
+Top practiers weren't less likely to make a mistake the first time playing something through. Nor did they put in more hours. The difference was that they immidately adjusted what they were doing to prevent the mistake from happening again. I believe this applies at the personal and the team level. Perhaps the most effective teams are the ones who notice as soon as something doesn't work and experiment to try to improve.
 
 > Success does not consist in never making mistakes but in never making the same one a second time.
 >
@@ -63,10 +61,14 @@ To the students in my teacher's studio, reflecting and receiving mentoring was j
 
 I'd like to see this mindset in organizations. When you notice something that could be better, don't sit around and allow it to happen again and again because "you have work to do." Make it better! Continuous improvement isn't afterthought; in order to work it has to be a core belief.
 
+He would point out obvious things I didn't notice and constantly push the boundaries of what I observed. You've got it memorized? Can you start in the middle of this passage without looking at the music? If not, let's look at how you're approaching the memorization, and improve your method… not just work harder.
+
+Having weekly sessions with a master was an incredible growing experience. It forced me to face that there is a nearly endless path ahead of me to improve the way I work. It's much more comfortable to work harder without changing the way you approach the work. But it's far more rewarding to continuously improve, and it's one of the most valuable lessons that I've taken with me into the Agile world.
+
 ## Takeaways
 <ul class="takeaways">
-  <li>Does your organization's culture support a sustainable pace? What about your organizational structures (incentive systems, frequent deadline crunches)?</li>
+  <li>Does your organization's culture support a sustainable pace? What about your organizational structures (incentive systems, frequent deadline crunches, etc.)?</li>
   <li>Is management's role regarding motivation to ensure individuals are supported in autonomy, mastery, and purpose? Or is it to drive motivation through external incentives? Dan Pink describes how extrinsic motivators reduce performance where even rudimentary creative thinking is required in <a href="https://www.youtube.com/watch?v=u6XAPnuFjJc">this excellent 10-minute video</a> (learn more about motivation on <a href="/resources#drive">my resources page</a>).</li>
+  <li>Are there ways you could broaden your perspective to notice how you're approaching a task? If you notice something you could do better, do you take action? What about your team, or department, or company? See <a href="http://www.mckinsey.com/insights/strategy/daniel_kahneman_beware_the_inside_view">Daniel Kahneman's writing on "the outside view"</a>.</li>
   <li>Is continuous improvement a core value in your organization, or is it an afterthought? How could you make it more central?</li>
-  <li>Are there ways you could broaden your perspective to notice how you're approaching a task? If you notice something you could do better, do you take action? What about your team, or department, or company?</li>
 </ul>
