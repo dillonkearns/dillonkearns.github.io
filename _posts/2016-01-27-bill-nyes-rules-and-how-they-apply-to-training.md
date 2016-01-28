@@ -24,7 +24,7 @@ Another sign of Nye's brain-friendly approach to education is a set of guideline
 <!-- {% include image.html url="http://i.imgur.com/szgjIPa.jpg" alt="Bill Nye the Science Guy Show Rules" caption="Bill Nye's rules for his science show" iamgestyle="height: 2000px;" %} -->
 
 
-<img src="http://i.imgur.com/szgjIPa.jpg" style="width: 100%" />
+<img src="http://i.imgur.com/szgjIPa.jpg" style="width: 100%; max-width: 1000px;" />
 
 <br />
 
