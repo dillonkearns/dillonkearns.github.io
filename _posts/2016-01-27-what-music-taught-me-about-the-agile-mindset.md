@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "What Studying Music Taught Me About Agile"
+title:  "What Studying Music Taught Me About The Agile Mindset"
 date:   2016-01-27 17:44:00
 categories: jekyll update
 redirect_from:
