@@ -11,11 +11,11 @@ tags:
 
 {% include image.html url="http://vignette1.wikia.nocookie.net/goanimate-v2/images/8/88/Bill-Nye-Oklahoma-state-1.jpg" alt="Bill Nye" caption="Bill Nye the Science Guy" %}
 
-Over the past few months, I've heard Bill Nye speak on several podcasts and I've read his book *Undeniable*. It's reminded me of one thing: he is an incredible educator. He is absolutely brilliant at making ideas stick. Scattered throughout his content are techniques that brain science tells us are good for conveying and retaining information. For example, in *Undeniable*, he immidiately sets up an analogy comparing renting versus buying a home to different attitudes about our home planet, Earth.
+Over the past few months, I've heard Bill Nye speak on several podcasts and I've read his book *Unstoppable*. It's reminded me of one thing: he is an incredible educator. He is absolutely brilliant at making ideas stick. Scattered throughout his content are techniques that brain science tells us are good for conveying and retaining information. For example, in *Unstoppable*, he immidiately sets up an analogy comparing renting versus buying a home to different attitudes about our home planet, Earth.
 
 > Earth is not just our home, it is also our house. It’s our residence, and we are the owners. We are not renters passing through. We are not tenants who can complain to the landlord and eventually move on to live somewhere else. We live here—on this 7,900-mile-wide (13,000-km) ball of rock, water, and air—and we are responsible for its upkeep. Right now, we are doing a pretty bad job as caretakers. We don’t seem to be paying anywhere near enough attention to the deteriorating conditions of our home.
 >
-> -- Bill Nye, *Undeniable*
+> -- Bill Nye, *Unstoppable*
 
 Notice the colorful visuals. Houses, renters, landlords, ball of rock water and air. Research tells us that the visual processing in the brain is the strongest of the senses, so tapping into that improves learning (see [John Medina's Brain Rule #10](http://www.brainrules.net/vision)). That includes vivid descriptions and analogies. Not only that, but he continually builds off of this analogy throughout the book as a way of exploring our relationship with the planet in more depth. Chip and Dan Heath call this concept a "genartive analogy" in their brain-science book *Made to Stick*.
 
